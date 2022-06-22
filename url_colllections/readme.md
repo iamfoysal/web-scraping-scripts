@@ -1,0 +1,23 @@
+##### All URLs can be extracted from the home page of any website
+             
+######  > for others website
+    change url : 
+         url_az = "your_site_link"
+
+##### find <a> tags and child tags:
+     like: 
+        <a href=""></a> //parent tags 
+            <p></p> // child tags 
+            <small></small> //child tags
+
+            or
+
+        <a href=""></a> 
+            <h1><h2><h3><h4><h5>
+            
+###### Now find your <a> 's child tag and change the tag here
+
+        list= self.__soup.find_all(['child tags',.....]])
+        
+ ###### then run
+    python app.py
