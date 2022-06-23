@@ -108,3 +108,81 @@ Traceback (most recent call last):
   File "C:\Users\foysa\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 23, in decode
     return codecs.charmap_decode(input,self.errors,decoding_table)[0]
 UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 243915: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x81 in position 244047: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\foysa\OneDrive\Desktop\web scraping scripts\url_colllections\scrap\wscrap.py", line 47, in read_web_page
+    self.__data= obj.read()
+  File "C:\Users\foysa\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 244047: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x81 in position 244047: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\foysa\OneDrive\Desktop\web scraping scripts\url_colllections\scrap\wscrap.py", line 47, in read_web_page
+    self.__data= obj.read()
+  File "C:\Users\foysa\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 244047: character maps to <undefined>
+ERROR:root:unknown url type: 'www.bbc.com'
+Traceback (most recent call last):
+  File "C:\Users\foysa\OneDrive\Desktop\web scraping scripts\url_colllections\scrap\wscrap.py", line 22, in retrive_webpage
+    html = urlopen(self.__url)
+  File "C:\Users\foysa\AppData\Local\Programs\Python\Python310\lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\foysa\AppData\Local\Programs\Python\Python310\lib\urllib\request.py", line 503, in open
+    req = Request(fullurl, data)
+  File "C:\Users\foysa\AppData\Local\Programs\Python\Python310\lib\urllib\request.py", line 322, in __init__
+    self.full_url = url
+  File "C:\Users\foysa\AppData\Local\Programs\Python\Python310\lib\urllib\request.py", line 348, in full_url
+    self._parse()
+  File "C:\Users\foysa\AppData\Local\Programs\Python\Python310\lib\urllib\request.py", line 377, in _parse
+    raise ValueError("unknown url type: %r" % self.full_url)
+ValueError: unknown url type: 'www.bbc.com'
+ERROR:root:'charmap' codec can't decode byte 0x81 in position 244053: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\foysa\OneDrive\Desktop\web scraping scripts\url_colllections\scrap\wscrap.py", line 47, in read_web_page
+    self.__data= obj.read()
+  File "C:\Users\foysa\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 244053: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x81 in position 244053: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\foysa\OneDrive\Desktop\web scraping scripts\url_colllections\scrap\wscrap.py", line 47, in read_web_page
+    self.__data= obj.read()
+  File "C:\Users\foysa\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 244053: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x81 in position 244049: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\foysa\OneDrive\Desktop\web scraping scripts\url_colllections\scrap\wscrap.py", line 47, in read_web_page
+    self.__data= obj.read()
+  File "C:\Users\foysa\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 244049: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x81 in position 244049: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\foysa\OneDrive\Desktop\web scraping scripts\url_colllections\scrap\wscrap.py", line 47, in read_web_page
+    self.__data= obj.read()
+  File "C:\Users\foysa\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 244049: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x81 in position 244049: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\foysa\OneDrive\Desktop\web scraping scripts\url_colllections\scrap\wscrap.py", line 47, in read_web_page
+    self.__data= obj.read()
+  File "C:\Users\foysa\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 244049: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x81 in position 244049: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\foysa\OneDrive\Desktop\web scraping scripts\url_colllections\scrap\wscrap.py", line 47, in read_web_page
+    self.__data= obj.read()
+  File "C:\Users\foysa\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 244049: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x81 in position 244049: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\foysa\OneDrive\Desktop\web scraping scripts\url_colllections\scrap\wscrap.py", line 47, in read_web_page
+    self.__data= obj.read()
+  File "C:\Users\foysa\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 244049: character maps to <undefined>

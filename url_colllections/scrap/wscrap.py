@@ -2,8 +2,8 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
 
-url_az = "https://www.bbc.com/"
-filepath = "html/aljazeera.html"
+url_az = "https://www.bbc.com"
+filepath = "html/bbc.html"
 
 class AmazonScraper:
 	__url = ''
@@ -47,7 +47,7 @@ class AmazonScraper:
 				self.__data= obj.read()
 
 		except Exception as e:
-			print (e)
+			#print (e)
 			self.__wlog.result(str(e))
 
 	def change_url(self, url):
@@ -62,7 +62,7 @@ class AmazonScraper:
 
 	def parseSope_to_html(self):
 		
-		list= self.__soup.find_all(['h1','h2','h3','h4', 'h5' 'p','small'])
+		list= self.__soup.find_all(['h1','h2','h3','h4', 'h5' ])
 		# print(list)
 		# for link in soup.find_all('a'):
         #     link_name  = link.string
@@ -85,6 +85,8 @@ class AmazonScraper:
 			
 			if tag.parent.get('href'):
 				link = self.__url + tag.parent.get('href')
+				# domain = 'https://www.bbc.com'
+				#link = tag.parent.get('href')
 				title = tag.string
 				news_link+= "<li><a href={} target='_blank'>{}</li>\n".format(link,title)
 		news_link +='</ol>'
