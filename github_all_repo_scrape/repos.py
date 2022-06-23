@@ -12,7 +12,7 @@ lists = soup.find_all('h3', class_="wb-break-all")
 #print (lists)
 
 
-with open('mohiful_repositories.csv', 'w', encoding='utf8', newline='') as f:
+with open('iamfoysal_repositories.csv', 'w', encoding='utf8', newline='') as f:
     callwriter = writer(f)
     header = ['name', 'address'] # csv header name 
     callwriter.writerow(header)
