@@ -17,6 +17,7 @@ lists = soup.find_all('section', class_="listing-search-item")
 
 # title = lists.find_all('a', class_="listing-search-item__link--title")
 # print (title)
+
 with open('info.csv', 'w', encoding='utf8', newline='') as f:
     callwriter = writer(f)
     header = ['title', 'price','location', 'area']
